@@ -1,0 +1,5 @@
+{
+    "hub_id": "my-iot-hub",
+    "device_id": "my-iot-device",
+    "api_version": "2017-06-30"
+}
