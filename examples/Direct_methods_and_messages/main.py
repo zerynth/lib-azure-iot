@@ -43,7 +43,7 @@ sample_th = 5
 # choose an appropriate way to get a valid timestamp (may be available through hardware RTC)
 def get_timestamp():
     user_agent = {"user-agent": "curl/7.56.0"}
-    return json.loads(requests.get('http://now.httpbin.org', headers=user_agent).content)['now']['epoch']
+    return json.loads(requests.get("http://now.zerynth.com/", headers=user_agent).content)['now']['epoch']
 
 # create an azure iot device instance, connect to mqtt broker, set bound and method callbacks and start mqtt reception loop
 device = iot.Device(device_conf['hub_id'], device_conf['device_id'], device_conf['api_version'], pkey, get_timestamp)
