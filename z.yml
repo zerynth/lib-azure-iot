@@ -1,0 +1,13 @@
+---
+description: Microsoft Azure IoT support
+fullname: lib.azure.iot
+info:
+    chip_manufacturer: '-'
+    chip_name: '-'
+    name: Zerynth Microsoft Azure IoT Library
+    type: IoT Cloud
+keywords:
+- azure
+- iot
+title: Microsoft Azure IoT Library
+...
